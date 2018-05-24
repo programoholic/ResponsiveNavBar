@@ -1,0 +1,79 @@
+@media(max-width: 1280px) {
+    .navbar-toggle{
+        display: block !important;
+        float: right !important;
+        
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse{
+        display: none !important;
+    }
+}
+.navbar{
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}    
+.navbar-brand{
+  color:white;
+} 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+     background-color: #302b63;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.closebtn{
+    top: 0 !important;
+    right: 0 !important;
+    margin-top:-18px !important;;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+}
+@media screen and (min-width: 1280px) {
+    .sidenav {display: none}
+    
+  }
+.heehe{
+ 
+    color:green;
+}
+a{
+    color:white !important;
+}
+.dropdown-menu{
+    background-color: grey;
+}
